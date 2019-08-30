@@ -8,7 +8,7 @@ package day3;
 import java.util.Scanner;
 
 public class Tasks {
-
+    
     public void tasks() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadiet cik gribat MAX garumu * : ");
@@ -21,12 +21,13 @@ public class Tasks {
             System.out.println();
         }
         
-        for (int k = (kebabs - 1); k >= 0; k--) {
-            for (int j = 0; j <= k; j++) {
+        for (int i = (kebabs - 2); i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
             }
-            System.out.print("* ");
+            System.out.println();
         }
-        System.out.println();
+        
     }
 
     public static void pyramid2() {
