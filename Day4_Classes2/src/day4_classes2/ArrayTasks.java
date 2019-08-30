@@ -31,6 +31,13 @@ public class ArrayTasks {
 
     public static void sortArray() {
         int[] arr = {7, 6, 3, 2, 9, 13};
+        
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = 0; j < arr.length-1-i; j++) {
+                System.out.println(); // mēgināt izvadīt visu j i utt lai testētu
+                // līdzīgi kā ar switch places kas augšā
+            }
+        }
         //sakārtot masīvu augšā secībā
         //izvadīt
     }
