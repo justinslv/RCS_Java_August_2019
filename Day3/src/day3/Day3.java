@@ -20,8 +20,8 @@ public class Day3 {
         Example ex = new Example();
         Tasks tsk = new Tasks();
         
-        tsk.tasks();
-        
+        //tsk.tasks();
+        calculator();
         //ex.nonStaticExample();
         
        // Example.staticExample();
@@ -29,44 +29,44 @@ public class Day3 {
         //calculator();
     }
     
-    ////Kalkulātors
-//        public static void calculator() {
-//        int num1;
-//        int num2;
-//        String operation;
-//
-//
-//        Scanner input = new Scanner(System.in);
-//
-//        System.out.println("Ievadi pirmo ciparu: ");
-//        num1 = input.nextInt();
-//
-//        System.out.println("Ievadi otru ciparu: ");
-//        num2 = input.nextInt();
-//
-//        Scanner op = new Scanner(System.in);
-//
-//        System.out.println("Please enter operation: ");
-//        operation = op.next();
-//
-//        if (operation == "+");
-//        {
-//            System.out.println("Atbilde ir: " + (num1 + num2));
-//        }
-//        if  (operation == "-");
-//        {
-//            System.out.println("Atbilde ir: " + (num1 - num2));
-//        }
-//
-//        if (operation == "/");
-//        {
-//            System.out.println("Atbilde ir: " + (num1 / num2));
-//        }
-//        if (operation == "*")
-//        {
-//            System.out.println("Atbilde ir: " + (num1 * num2));
-//        }
-//    }
+    //Kalkulātors
+        public static void calculator() {
+        int num1;
+        int num2;
+        String operation;
+
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ievadi pirmo ciparu: ");
+        num1 = sc.nextInt();
+
+        System.out.println("Ievadi otru ciparu: ");
+        num2 = sc.nextInt();
+
+        Scanner op = new Scanner(System.in);
+
+        System.out.println("Please enter operation: ");
+        operation = op.next();
+
+        if (operation == "+");
+        {
+            System.out.println("Atbilde ir: " + (num1 + num2));
+        }
+        if  (operation == "-");
+        {
+            System.out.println("Atbilde ir: " + (num1 - num2));
+        }
+
+        if (operation == "/");
+        {
+            System.out.println("Atbilde ir: " + (num1 / num2));
+        }
+        if (operation == "*")
+        {
+            System.out.println("Atbilde ir: " + (num1 * num2));
+        }
+    }
 
     
 }
